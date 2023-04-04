@@ -1,0 +1,145 @@
+  
+ 
+  .titulo {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .tituloCursiva {
+    font-style: italic;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  .video {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .imagenes {
+    display: block;
+    width:nth($espacios, 1);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .listaOrdenada {
+    text-align: center;
+  }
+  
+  .contenedor {
+    display: flex;
+  }
+  
+  .imgMate {
+    width:nth($espacios, 2);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .yerbaMate {
+    width:nth($espacios, 3);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .Sector-mates {
+    text-align: center;
+  }
+  
+  .Productos {
+    background-color: $phc;
+    border:nth($espacios, 4) solid $pb;
+    color: $pc;
+    text-align: center;
+  }
+  
+  .Productos:hover {
+    background-color: $ph-bg;
+    border: $pb;
+    color: $phc;
+  }
+  
+  .card-mia {
+    border:nth($espacios, 5) solid $border-C;
+  }
+  
+  .medio {
+    text-align: center;
+  }
+  
+  .liUno {
+    grid-area: uno;
+  }
+  
+  .liDos {
+    grid-area: dos;
+  }
+  
+  .litres {
+    grid-area: tres;
+  }
+  
+  .liCuatro {
+    grid-area: cuatro;
+  }
+  
+  .liCinco {
+    grid-area: cinco;
+  }
+  
+  .liSeis {
+    grid-area: seis;
+  }
+  .Productos{
+    li{
+        border:nth($espacios, 5) black solid;
+    }
+  }
+ .Productos{
+    img{
+        max-width:nth($espacios, 6);
+    }
+ }
+ .Productos{
+    h2{
+       font-size:nth($espacios, 7) ;
+        font-weight: bold;
+    }
+ }
+  
+  .Productos-precio {
+    font-size:nth($espacios, 8);
+    font-weight: bold;
+    margin-top:nth($espacios, 9);
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+    padding: nth($espacios, 10);
+    background-image: url(../imgDeInicio/fondoFooter.jpg);
+    background-repeat: repeat;
+  }
+  
+  footer{
+    img{
+        width:nth($espacios, 11);
+        height:nth($espacios, 12);
+    }
+}      
+  
+  .Copyright {
+    color: $cc;
+  }
+  
+  .inpudMio {
+    border: 2px solid $border-C;
+  }

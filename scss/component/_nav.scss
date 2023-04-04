@@ -1,0 +1,37 @@
+nav {
+    position: relative;
+    bottom:nth($espacios, 18);
+    left:nth($espacios, 17);
+    bottom:nth($espacios, 16);
+    left:nth($espacios, 15);
+    ul {
+        display: flex;
+        flex: end;
+        flex-direction: wrap;
+        gap:nth($espacios, 14);
+      }
+      li {
+        display: inline;
+      }
+      a {
+       
+        text-decoration: none;
+        color: $border-C;
+        text-transform: uppercase;
+        font-size:16px;
+        border:nth($espacios, 4) solid transparent;
+        padding: 8px;
+        &:hover{
+          border:nth($espacios, 4) solid $border-C;
+           
+              background-color: $bg-nav-a;
+        }
+              &:active{
+                background-color: $bg-nav-a;
+              }
+        }
+      }
+     
+  
+  
+  

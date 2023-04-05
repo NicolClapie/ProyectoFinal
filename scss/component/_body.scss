@@ -75,45 +75,7 @@
     text-align: center;
   }
   
-  .liUno {
-    grid-area: uno;
-  }
   
-  .liDos {
-    grid-area: dos;
-  }
-  
-  .litres {
-    grid-area: tres;
-  }
-  
-  .liCuatro {
-    grid-area: cuatro;
-  }
-  
-  .liCinco {
-    grid-area: cinco;
-  }
-  
-  .liSeis {
-    grid-area: seis;
-  }
-  .Productos{
-    li{
-        border:nth($espacios, 5) black solid;
-    }
-  }
- .Productos{
-    img{
-        max-width:nth($espacios, 6);
-    }
- }
- .Productos{
-    h2{
-       font-size:nth($espacios, 7) ;
-        font-weight: bold;
-    }
- }
   
   .Productos-precio {
     font-size:nth($espacios, 8);

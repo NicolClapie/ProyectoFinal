@@ -118,43 +118,6 @@ p {
   text-align: center;
 }
 
-.liUno {
-  grid-area: uno;
-}
-
-.liDos {
-  grid-area: dos;
-}
-
-.litres {
-  grid-area: tres;
-}
-
-.liCuatro {
-  grid-area: cuatro;
-}
-
-.liCinco {
-  grid-area: cinco;
-}
-
-.liSeis {
-  grid-area: seis;
-}
-
-.Productos li {
-  border: 5px black solid;
-}
-
-.Productos img {
-  max-width: 100%;
-}
-
-.Productos h2 {
-  font-size: 187.5%;
-  font-weight: bold;
-}
-
 .Productos-precio {
   font-size: 125%;
   font-weight: bold;

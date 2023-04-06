@@ -60,31 +60,21 @@
             Te contamos un poco de nosotros y de esta pagina, nos encanta el mate Argentino por eso hace dos años decidimos abrir esta tienda online donde podes encontrar un poco de todo. Te contamos un poco que es el mate, la historia del mate, tambien algo muy interesante es cómo preparar tu propio mate. Te invitamos a que pases por nuestro link de productos y veas todo. Con tu #LosMatesSonArgentinos en twitter o instagram te llevas 10%OFF en todos nuestros productos- <br> ¡No te quedes con las ganas de tomar un buen Mate Argentino!
         </P>
     </main>
-
-
-
-
-
-
-
-
-
-
-
-    <form>
+    <form action="from.php" method="post">
         <div class="row mb-3">
           <label for="inputEmail3" class="col-sm-2 col-form-label">Gmail</label>
           <div class="col-sm-10">
-            <input type="email" class="form-control inpudMio" id="inputEmail3"
+            <input type="email" name="Gmail" class="form-control inpudMio" id="inputEmail3"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
+            
           </div>
         </div>
         <div class="row mb-3">
-          <label for="inputPassword3" class="col-sm-2 col-form-label">  Telefono</label>
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Telefono</label>
           <div class="col-sm-10">
-            <input type="tel" class="form-control inpudMio" id="inputPassword3"
+            <input type="tel" required="required"  class="form-control inpudMio" id="inputPassword3"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
@@ -128,6 +118,8 @@
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
+          </textarea>
+
           </div>
         </div>
     </form>
@@ -184,7 +176,7 @@
               <option value="3">MATE DE ACERO TERMICO + YERBERO AZUCARERO</option>
               <option value="1">TERMO MEDIA MANIJA FORRADO EN CUERO ECOLÓGICO</option>
               <option value="2">TERMO ACERO INOXIDABLE TIPO ARGENTINO NEGRO</option>
-              <option value="3">TERMO ACERO LUMILAGRO LUMINOX BLANCO</option>
+              <option value="3">TERMO LUMILARGO NEGRO</option>
             </select>
          
             <label for="floatingSelectGrid">selecciona el producto</label>
@@ -203,8 +195,8 @@
               
             </select>
             <label for="floatingSelectGrid">envios</label> <br><br>
-            <button type="button" class="btn btn-success">Enviar formulario</button>
-            
+            <input type="submit" value="Cancelar">
+            <input type="submit" value="Enviar formulario">
           </div>
         </div>
       </div>
@@ -214,44 +206,75 @@
         Ubicación:
     </h2>
     <iframe class="video" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52555.19198921641!2d-58.49436521530152!3d-34.586469406637605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb588c7b9714d%3A0x8542b337ec5800f1!2sTodo%20Mates!5e0!3m2!1ses!2sar!4v1675850213485!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-   
-
-<!-- seleccionar mates -->
-
-    <!-- <section>
-        <h2>
-            Contactos de MATES ARGENTINOS
-        </h2>
-       
-        <p>
-            
-        </p>
-        <h2 class="tituloCursiva">
-            WhatsApp:
-        </h2>
-        <p>
-            3414569178
-        </p>
-        <h2 class="tituloCursiva">
-            Twitter:
-        </h2>
-        <p>
-            MatesArgentinosBuenaOnda
-        </p>
-        <h2 class="tituloCursiva">
-            Instagram:
-        </h2>
-        <p>
-            @TiendaMates569
-        </p>
-    </section> -->
-
-
+  
     <footer>
         <img src="./imgDeInicio/footer.jpg">
         <p class="Copyright">
             &copy Copyright Mate Argentino - 2023
         </p>
+
+    <ul>
+      <li>
+        <a href="./index.html">Inicio</a>
+      </li>
+      <li>
+        <a href="./historiadelmate.html">Historia del mate</a>
+      </li>
+      <li>
+        <a href="./comohacertupropiomate.html">Como hacer tu propio mate</a>
+      </li>
+      <li>
+        <a href="./productos.html">Productos</a>
+      </li>
+      <li>
+        <a href="./sobre-nosotros.html">Contactos</a>
+      </li>
+
+
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <ul class="navbar-nav">
+          <li class="nav-item">
+              
+          <a  class="nav-link active links-footer" aria-current="page" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+         
+          <a class="nav-link links-footer" href="./historiadelmate.html">Historia del mate</a>
+        
+          </li>
+          <li class="nav-item">
+          <a class="nav-link links-footer" href="./comohacertupropiomate.html">Cómo hacer tu propio mate</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link links-footer" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link links-footer" href="./sobre-nosotros.html">Contactos</a>
+                  </li>
+      </ul> -->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
